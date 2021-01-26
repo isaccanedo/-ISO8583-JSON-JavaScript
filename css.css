@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+table{
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+table td{
+    padding: 4px 8px;
+    vertical-align: text-top;
+    word-wrap:break-word;
+}
+table thead td{
+    font-weight: bold;
+}
+.all{
+    padding: 10px;
+    box-sizing: border-box;
+}
+.iso-container{
+}
+.iso-message-container{
+    padding-bottom: 10px;
+}
+.form-control-wrapper{
+    padding: 4px 0;
+}
+textarea{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    resize: vertical;
+}
+input[type="button"], input[type="submit"], input[type="reset"], button{
+    padding: 4px 14px;
+}
+.iso-data-container td input[type="text"], .iso-data-container td input[type="number"], .iso-data-container td textarea{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background-color: transparent;
+    padding-left: 0;
+    padding-right: 0;
+}
+.field-remover-all a, .field-remover a{
+    text-decoration: none;
+    display: block;
+    color: #333333;
+}
